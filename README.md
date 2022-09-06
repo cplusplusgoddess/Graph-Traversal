@@ -19,24 +19,5 @@
 	dijkstra_graph() -
     Work Complexity 0(|V|*|V-1|) worst case approx 0(V^2)
     Space Complexity 0(V + E=(V*(V-1)) + visited[MAX_NODES] + 
-										visit queue[V])
-####Example:
-<br>
-<code>
-      *<br>
-     |*|<br>
- l--(*0*)--10--(4)--10--(3)<br>
- | |_____|    ^^^^^^^^^^/ \<br>
- | ~~~~~~\--30-(2)-^50-/  |<br>
- | ~~~~~ |       \5 ^ /   |<br>
- | ~~~~~~'--50--(1)--20   |<br>
- | ~~~~~~~~  ~~~~~~~~~~~  |<br>
- | ~~~~~lake Big ~~~~~~~~ |<br>
-100-----------------------l<br>
-</code>
-</br>
-
-**Solution:**
-
-35
+										visit queue[V]) 
 
