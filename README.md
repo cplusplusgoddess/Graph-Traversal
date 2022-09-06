@@ -20,17 +20,21 @@
     Work Complexity 0(|V|*|V-1|) worst case approx 0(V^2)
     Space Complexity 0(V + E=(V*(V-1)) + visited[MAX_NODES] + 
 										visit queue[V])
-
+####Example:
+<br>
+<code>
       *
      |*|
  l--(*0*)--10--(4)--10--(3)
  | |_____|    ^^^^^^^^^^/ \
  | ~~~~~~\--30-(2)-^50-/  |
- | ~~~~~ |       \5 ^ /   | 
+ | ~~~~~ |       \5 ^ /   |
  | ~~~~~~'--50--(1)--20   |
  | ~~~~~~~~  ~~~~~~~~~~~  |
- | ~~~~~lake Big ~~~~~~~~ | 
+ | ~~~~~lake Big ~~~~~~~~ |
 100-----------------------l
+</code>
+</br>
 
 **Solution:**
 
